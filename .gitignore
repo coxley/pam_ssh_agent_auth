@@ -6,17 +6,6 @@
 *~
 .#*
 
-# package builds
-*.rpm
-*.deb
-*.pkg.tar*
-
-# build byproducts
-build-*/*
-fpm.wiki
-*.gem
-*.pkg
-
 # python
 *.pyc
 *.egg-info
@@ -30,3 +19,6 @@ fpm.wiki
 coverage
 test/tmp
 Gemfile.lock
+
+# src
+src/*
